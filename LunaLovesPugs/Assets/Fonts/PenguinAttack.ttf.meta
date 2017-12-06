@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e64a6b5fc5dc1f74997b182a5ce696b1
+timeCreated: 1510236782
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Penguin Attack
+  fontNames:
+  - Penguin Attack
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

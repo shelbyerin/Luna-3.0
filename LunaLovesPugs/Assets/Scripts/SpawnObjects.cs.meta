@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a0f951bb5e0f54b5eb7cbdad8010a570
+timeCreated: 1509915049
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mushroom: {fileID: 1271916535887002, guid: 116816e73710645efa5193ae38a6b367, type: 2}
+  - apple: {fileID: 1755158774521162, guid: 96fbc735e2c574f41834be020ba57585, type: 2}
+  - medicine: {fileID: 1698327321533776, guid: b62b73aab03dd44c2983241f30b5cb4a, type: 2}
+  - pizza: {fileID: 1395538953312026, guid: d992a7fc97b784ff0a8c1c6664669d41, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
