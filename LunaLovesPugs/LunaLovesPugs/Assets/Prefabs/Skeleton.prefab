@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4284313160216540}
   - component: {fileID: 212244999763572106}
-  - component: {fileID: 61539302965592126}
   - component: {fileID: 50063199869047572}
   - component: {fileID: 122171740208983588}
+  - component: {fileID: 60170001599341112}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: BadObstacle
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1035261579711558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2982078, y: -0.57636786, z: 0}
+  m_LocalPosition: {x: 13.430729, y: -1.0164567, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -63,8 +63,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!61 &61539302965592126
-BoxCollider2D:
+--- !u!60 &60170001599341112
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -85,9 +85,25 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.02, y: 0.5}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.45999998, y: -0.06}
+      - {x: 0.12, y: 0.11}
+      - {x: 0.02, y: 0.22999999}
+      - {x: -0.02, y: 0.25}
+      - {x: -0.28, y: 0.25}
+      - {x: -0.38, y: 0.17}
+      - {x: -0.48999998, y: -0.03}
+      - {x: -0.51, y: -0.13}
+      - {x: -0.51, y: -0.24}
+      - {x: -0.48, y: -0.25}
+      - {x: 0.48999998, y: -0.25}
+      - {x: 0.51, y: -0.24}
+      - {x: 0.51, y: -0.099999994}
+    - - {x: 0.099999994, y: -0.14}
+      - {x: 0.089999996, y: -0.14999999}
+      - {x: 0.089999996, y: -0.21}
+      - {x: 0.099999994, y: -0.19999999}
 --- !u!122 &122171740208983588
 Halo:
   m_ObjectHideFlags: 1

@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4452305645639804}
   - component: {fileID: 212035748409631402}
-  - component: {fileID: 61064907813491210}
   - component: {fileID: 50777184442512326}
   - component: {fileID: 122192542241777466}
+  - component: {fileID: 60230051854838310}
   m_Layer: 0
   m_Name: Cactus (1)
   m_TagString: BadObstacle
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1119108506215054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.9078474, y: -0.053235367, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: 10.074705, y: -0.6571956, z: 0}
+  m_LocalScale: {x: 2, y: 1.5, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -63,8 +63,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!61 &61064907813491210
-BoxCollider2D:
+--- !u!60 &60230051854838310
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -85,9 +85,39 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.05, y: 1.11}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.39, y: -0.255}
+      - {x: 0.45, y: -0.175}
+      - {x: 0.53999996, y: -0.105}
+      - {x: 0.53999996, y: 0.125}
+      - {x: 0.53, y: 0.205}
+      - {x: 0.47, y: 0.285}
+      - {x: 0.32999998, y: 0.305}
+      - {x: 0.19999999, y: 0.235}
+      - {x: 0.21, y: 0.39499998}
+      - {x: 0.14999999, y: 0.555}
+      - {x: -0.13, y: 0.555}
+      - {x: -0.21, y: 0.505}
+      - {x: -0.22, y: 0.225}
+      - {x: -0.24, y: 0.205}
+      - {x: -0.25, y: 0.114999995}
+      - {x: -0.25, y: 0.375}
+      - {x: -0.35999998, y: 0.435}
+      - {x: -0.45999998, y: 0.42499998}
+      - {x: -0.51, y: 0.375}
+      - {x: -0.53999996, y: 0.205}
+      - {x: -0.53999996, y: 0.095}
+      - {x: -0.47, y: 0.015}
+      - {x: -0.39, y: -0.044999998}
+      - {x: -0.21, y: -0.145}
+      - {x: -0.28, y: -0.175}
+      - {x: -0.22, y: -0.225}
+      - {x: -0.21, y: -0.555}
+      - {x: 0.19999999, y: -0.555}
+      - {x: 0.19999999, y: -0.415}
+      - {x: 0.26999998, y: -0.385}
+      - {x: 0.21, y: -0.33499998}
 --- !u!122 &122192542241777466
 Halo:
   m_ObjectHideFlags: 1

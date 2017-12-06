@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4027455701491418}
   - component: {fileID: 212419199863939626}
   - component: {fileID: 50505443263388210}
-  - component: {fileID: 61884180506126558}
   - component: {fileID: 122312043814612180}
+  - component: {fileID: 60209308511306150}
   m_Layer: 0
   m_Name: Cactus (2)
   m_TagString: BadObstacle
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1756890742792534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3896086, y: 0.63509715, z: 0}
+  m_LocalPosition: {x: 11.774623, y: -1.2618057, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -63,8 +63,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!61 &61884180506126558
-BoxCollider2D:
+--- !u!60 &60209308511306150
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -85,9 +85,19 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.45}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.13499999}
+      - {x: 0.14999999, y: 0.225}
+      - {x: -0.14999999, y: 0.225}
+      - {x: -0.22999999, y: 0.205}
+      - {x: -0.35, y: 0.035}
+      - {x: -0.35, y: -0.065}
+      - {x: -0.29999998, y: -0.225}
+      - {x: 0.28, y: -0.225}
+      - {x: 0.35, y: -0.13499999}
+      - {x: 0.35, y: -0.074999996}
+      - {x: 0.31, y: 0.024999999}
 --- !u!122 &122312043814612180
 Halo:
   m_ObjectHideFlags: 1

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4214461387271050}
   - component: {fileID: 212321586689446346}
   - component: {fileID: 50513220169345188}
-  - component: {fileID: 61356250813859544}
+  - component: {fileID: 60919613160109414}
   m_Layer: 0
   m_Name: Stone
   m_TagString: Obstacle
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1834733215619516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.968966, y: -0.30367637, z: 0}
+  m_LocalPosition: {x: 12.317896, y: -1.2092309, z: 0}
   m_LocalScale: {x: 2, y: 1.5, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,8 +62,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!61 &61356250813859544
-BoxCollider2D:
+--- !u!60 &60919613160109414
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -84,9 +84,16 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.54}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.28, y: 0.19999999}
+      - {x: 0.099999994, y: 0.26999998}
+      - {x: -0.17, y: 0.26999998}
+      - {x: -0.45, y: -0.08}
+      - {x: -0.45, y: -0.26999998}
+      - {x: 0.45, y: -0.26999998}
+      - {x: 0.45, y: -0.089999996}
+      - {x: 0.39, y: 0.12}
 --- !u!212 &212321586689446346
 SpriteRenderer:
   m_ObjectHideFlags: 1
