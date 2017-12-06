@@ -7,7 +7,7 @@ public class LunaController : MonoBehaviour {
 	[HideInInspector] public bool jump = false;
 	public float moveForce = 365f;
 	public float maxSpeed = 6f;
-	public float jumpForce = 500f;
+	public float jumpForce = 700f;
 	public int xPOS;
 	public int yPOS;
 	private Rigidbody2D rb2d;
@@ -67,6 +67,7 @@ public class LunaController : MonoBehaviour {
 			if (jump && isGrounded)
 			{
 				rb2d.AddForce(new Vector2(0f, jumpForce));
+				rb2d.gravityScale = 2.5f;
 				jump = false;
 				isGrounded = false;
 				anim.SetTrigger("Jump");
