@@ -1,0 +1,100 @@
+fileFormatVersion: 2
+guid: c0d78bd8b35c74234b012d7a889e0b3d
+timeCreated: 1512333125
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline:
+    - - {x: 197, y: -23}
+      - {x: 181, y: -5}
+      - {x: 154, y: 40}
+      - {x: 140, y: 55}
+      - {x: 98, y: 71}
+      - {x: 86, y: 73}
+      - {x: 10, y: 73}
+      - {x: -78, y: 64}
+      - {x: -146, y: 43}
+      - {x: -168, y: -4}
+      - {x: -204, y: -26}
+      - {x: -204, y: -55}
+      - {x: -198, y: -67}
+      - {x: -170, y: -75}
+      - {x: -125, y: -85}
+      - {x: -114, y: -85}
+      - {x: -53, y: -83}
+      - {x: -11, y: -85}
+      - {x: 112, y: -85}
+      - {x: 166, y: -74}
+      - {x: 196, y: -51}
+      - {x: 197, y: -47}
+    - - {x: -240.74074, y: 166.81482}
+      - {x: -162.51852, y: 84.40741}
+      - {x: 300, y: 197}
+      - {x: 273.9259, y: 58.962982}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
