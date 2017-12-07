@@ -10,6 +10,8 @@ public class LunaController : MonoBehaviour {
 	public float maxSpeed = 6f;
 	public float jumpForce = 850f;
 =======
+	public float maxSpeed;
+	public float jumpForce = 700f;
 >>>>>>> 6aedabf0089a0ce1da5b7456bad7dac032069a6b
 	public int xPOS;
 	public int yPOS;
