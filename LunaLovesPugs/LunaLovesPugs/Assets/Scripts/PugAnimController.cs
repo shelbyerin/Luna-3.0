@@ -31,7 +31,7 @@ public class PugAnimController : MonoBehaviour {
 		if (Input.GetButtonDown("Jump") && isGrounded)
 		{
 			jump = true;
-			anim.SetTrigger("Jump");
+			//anim.SetTrigger("Jump");
 		}
 	}
 
