@@ -6,8 +6,11 @@ public class LunaController : MonoBehaviour {
 
 	[HideInInspector] public bool jump = false;
 	public float moveForce = 365f;
+<<<<<<< HEAD
 	public float maxSpeed = 6f;
 	public float jumpForce = 850f;
+=======
+>>>>>>> 6aedabf0089a0ce1da5b7456bad7dac032069a6b
 	public int xPOS;
 	public int yPOS;
 	private Rigidbody2D rb2d;

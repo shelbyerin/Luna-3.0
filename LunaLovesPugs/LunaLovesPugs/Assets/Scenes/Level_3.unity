@@ -1325,6 +1325,9 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
+=======
+>>>>>>> 6aedabf0089a0ce1da5b7456bad7dac032069a6b
 --- !u!1001 &953588825
 Prefab:
   m_ObjectHideFlags: 0
