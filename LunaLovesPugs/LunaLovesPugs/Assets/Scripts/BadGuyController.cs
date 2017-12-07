@@ -7,8 +7,10 @@ public class BadGuyController : MonoBehaviour {
 
 	[HideInInspector] public bool facingRight = true;
 	public float maxSpeed;
+	public float jumpForce = 800f;
 	private Rigidbody2D rb2d;
 	private float currentSpeed;
+
 
 	void Awake ()
 	{
@@ -22,6 +24,8 @@ public class BadGuyController : MonoBehaviour {
 
 		int lunaPos = GameObject.Find ("Luna").GetComponent<LunaController> ().xPOS;
 		if ((int)pos.x == lunaPos || (int)pos.x > lunaPos) {
+			rb2d.AddForce(new Vector2(0f, jumpForce));
+			rb2d.gravityScale = 2.5f;
 			currentSpeed = 0f;
 		} else {
 			currentSpeed = maxSpeed;
