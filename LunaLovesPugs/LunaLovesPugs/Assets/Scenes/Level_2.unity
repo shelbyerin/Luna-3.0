@@ -1656,51 +1656,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1028868392309526, guid: 4c517317a7fdf6d47b9a4f55f94ce25f, type: 2}
-      propertyPath: m_Name
-      value: Luna
-      objectReference: {fileID: 0}
-    - target: {fileID: 114282152368402992, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: maxSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 212498639584095998, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 896ae91a90e3244798553071f6654f6a,
-        type: 3}
-    - target: {fileID: 61810559250788498, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: -0.74134505
-      objectReference: {fileID: 0}
-    - target: {fileID: 61810559250788498, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: -0.2862388
-      objectReference: {fileID: 0}
-    - target: {fileID: 61810559250788498, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 61810559250788498, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 61810559250788498, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.27247763
-      objectReference: {fileID: 0}
-    - target: {fileID: 61810559250788498, guid: 4c517317a7fdf6d47b9a4f55f94ce25f,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 2.1815033
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c517317a7fdf6d47b9a4f55f94ce25f, type: 2}
   m_IsPrefabParent: 0
