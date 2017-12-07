@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58db9c7ca64ab45fb9493a5ec29e89d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxObjects: 30
+  maxObjects: 50
   bush: {fileID: 1395013424303286, guid: 3fa35a6f4b32963439592ce0db6bda3a, type: 2}
   wood_spikes: {fileID: 1799650511084678, guid: 01b8c7dcb68192141b7e92019854e291,
     type: 2}
@@ -2092,7 +2092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be156481e7b4b45d9a51dc3c91d7cbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxObjects: 30
+  maxObjects: 50
   pizza: {fileID: 1191532903914904, guid: e764db94e0f494c68a3afc0ab3c43d16, type: 2}
   chocolate: {fileID: 1080501666772672, guid: c6c5c50a208ab41c59b5c61f547b8bbe, type: 2}
   mushroom: {fileID: 1671991421466522, guid: 546d83e5ab80e41109742f8c85e750f1, type: 2}
