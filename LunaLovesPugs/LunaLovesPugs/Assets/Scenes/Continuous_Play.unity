@@ -147,6 +147,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4349314896040586, guid: 4c517317a7fdf6d47b9a4f55f94ce25f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349314896040586, guid: 4c517317a7fdf6d47b9a4f55f94ce25f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c517317a7fdf6d47b9a4f55f94ce25f, type: 2}
   m_IsPrefabParent: 0
@@ -158,7 +166,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 126209511}
-  - component: {fileID: 126209510}
   m_Layer: 10
   m_Name: SpawnManagerPlatforms
   m_TagString: Untagged
@@ -166,17 +173,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &126209510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 126209509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfe51e8c56f464820b4b7d4448c4ab41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &126209511
 Transform:
   m_ObjectHideFlags: 0
@@ -1156,6 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   maxSpeed: 4
+  jumpForce: 800
 --- !u!58 &961167168
 CircleCollider2D:
   m_ObjectHideFlags: 0
