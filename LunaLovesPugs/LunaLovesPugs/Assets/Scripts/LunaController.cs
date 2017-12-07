@@ -30,6 +30,9 @@ public class LunaController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
+		if (other.gameObject.CompareTag ("GoodPickUp") || other.gameObject.CompareTag ("BadPickUp")) {
+			Destroy (other.gameObject);
+		}
 		if (other.gameObject.CompareTag ("Ground")) {
 			isGrounded = true;
 			jumpTime -= Time.deltaTime;
@@ -38,6 +41,7 @@ public class LunaController : MonoBehaviour {
 				anim.SetTrigger("Land");
 			}
 		}
+
 	}
 
 	void Update ()
