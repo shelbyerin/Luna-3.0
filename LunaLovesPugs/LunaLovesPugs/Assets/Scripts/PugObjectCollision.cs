@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class PugObjectCollision : MonoBehaviour {
 
 	public static float maxSpeed;
-	
+	Animator anim;
+
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		float currentSpeed = GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed;
