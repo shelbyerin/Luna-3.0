@@ -6,11 +6,13 @@ using System;
 public class BadGuyController : MonoBehaviour {
 
 	[HideInInspector] public bool facingRight = true;
-	public float maxSpeed = 5;
+	public float maxSpeed;
 	private Rigidbody2D rb2d;
+	private float currentSpeed;
 
 	void Awake ()
 	{
+		currentSpeed = maxSpeed;
 		rb2d = GetComponent<Rigidbody2D>();
 	}
 
@@ -20,20 +22,20 @@ public class BadGuyController : MonoBehaviour {
 
 		int lunaPos = GameObject.Find ("Luna").GetComponent<LunaController> ().xPOS;
 		if ((int)pos.x == lunaPos || (int)pos.x > lunaPos) {
-			maxSpeed = 0f;
+			currentSpeed = 0f;
 		} else {
-			maxSpeed = 5f;
+			currentSpeed = maxSpeed;
 			if (pos.x < (lunaPos - 25)) {
-				maxSpeed = 7f;
+				currentSpeed = maxSpeed + 4;
 			} else if (pos.x >= (lunaPos - 10)) {
-				maxSpeed = 5f;
+				currentSpeed = maxSpeed;
 			}
 		}
 
 	//	int lunaPosY = GameObject.Find ("Luna").GetComponent<LunaController> ().yPOS;
 	//	pos.y = lunaPosY+1;
 
-		pos.x += maxSpeed * Time.deltaTime;
+		pos.x += currentSpeed * Time.deltaTime;
 		transform.position = pos;
 	}
 
