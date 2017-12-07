@@ -212,7 +212,7 @@ MonoBehaviour:
   jump: 0
   moveForce: 365
   maxSpeed: 6
-  jumpForce: 850
+  jumpForce: 800
   xPOS: 0
   yPOS: 0
   Luna: {fileID: 1028868392309526}
